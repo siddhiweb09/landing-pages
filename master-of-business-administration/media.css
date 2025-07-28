@@ -1,0 +1,226 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .banner-wrapper {
+    padding: 0rem;
+  }
+
+  .content-wrapper {
+    position: unset;
+    width: 100%;
+    background: #03458D;
+    padding: 1rem;
+  }
+
+  img.about {
+    width: 100%;
+    border-radius: 0px 50px;
+    text-align: left !important;
+  }
+
+  .awards-block.col-6.col-md-4.col-lg-2 {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  .card1 .awards {
+    flex-direction: row;
+  }
+
+  ul.program_info {
+    padding-left: 0% !important;
+  }
+
+  .faq-tabs .nav-link {
+    font-size: 10px;
+    /* Or adjust as needed */
+    padding: 8px 10px;
+  }
+
+  .card.shadow.p-4.bg-white.rounded {
+    border-radius: 0 0px 0px 0 !important;
+  }
+
+  .hero-banner img {
+    height: 30vh !important;
+  }
+
+  form.formPanel {
+    margin-top: 2rem;
+  }
+
+  .content-wrapper .card-img-top {
+    height: 60px !important;
+    padding-top: 1rem;
+    object-fit: contain;
+  }
+
+  .specializations_list_bullet li {
+    width: 100%;
+  }
+
+  .blur-bg,
+  .bg-gray,
+  .about-program,
+  .eligibility-section,
+  .faq-form-section,
+  .hero-banner2,
+  .site-header {
+    padding: 1rem !important;
+  }
+
+  .eligibility-content {
+    padding-bottom: 0rem;
+  }
+
+  img.program-img {
+    display: none;
+  }
+
+  .accordion-button,
+  .accordion-body {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .blur-bg {
+    background: #fff !important;
+  }
+
+  .ca-list li {
+    width: 100%;
+  }
+
+  section.usp-section {
+    position: unset;
+  }
+
+  .usp-wrapper .col:nth-child(1) {
+    border-bottom: 1px dotted #FFF !important;
+    border-left: 0 !important;
+    border-top: 0 !important;
+    border-right: 0 !important;
+  }
+
+  .usp-wrapper .col:nth-child(2) {
+    border-bottom: 1px dotted #FFF !important;
+    border-left: 0 !important;
+    border-top: 0 !important;
+    border-right: 0 !important;
+  }
+
+
+  .usp-wrapper .col:nth-child(3) {
+    border-bottom: 1px dotted #FFF !important;
+    border-left: 0 !important;
+    border-top: 0 !important;
+    border-right: 0 !important;
+  }
+
+  button.btn.btn-primary.enquire_now2 {
+    display: none;
+  }
+
+  .recruiters-title {
+    text-align: start !important;
+    padding-left: 1.8rem;
+  }
+
+  .text-title {
+    font-size: calc(1.3rem + .6vw);
+  }
+
+  .hero-banner2 {
+    background-position: left;
+    height: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 600px) and (max-width: 991px) {
+  .hero-banner img {
+    height: 50vh !important;
+  }
+
+  .banner-wrapper {
+    padding: 0 1.5rem 0 0;
+  }
+
+  .content-wrapper {
+    position: unset;
+    width: 100%;
+    background: #03458D;
+    padding: 3rem;
+  }
+
+  .awards-block.col-6.col-md-4.col-lg-2 {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  .card1 .awards {
+    flex-direction: row;
+  }
+
+  ul.program_info {
+    padding-left: 0% !important;
+  }
+
+  .content-wrapper .card-img-top {
+    height: 60px !important;
+    padding-top: 1rem;
+    object-fit: contain;
+  }
+
+  .features-box {
+    height: 450px;
+  }
+
+  .blur-bg {
+    padding-left: 4rem;
+    background: #fff !important;
+  }
+
+  .specializations_list_bullet li {
+    width: 100%;
+  }
+
+  .ca-list li {
+    width: 100%;
+  }
+
+  img.program-img {
+    margin-top: 2rem;
+  }
+
+  section.usp-section {
+    position: unset;
+  }
+
+
+  .usp-wrapper .col:nth-child(2) {
+    border: 0 !important;
+  }
+
+}
+
+@media (min-width: 991px) and (max-width: 1450px) {
+  .features-box {
+    height: 450px;
+  }
+
+  section.usp-section {
+    top: 60%;
+  }
+
+  .blur-bg {
+    padding: 3rem;
+  }
+
+  .banner-wrapper {
+    padding: 0 !important;
+  }
+
+  .hero-banner2 .text-title {
+    font-size: 60px;
+  }
+}
