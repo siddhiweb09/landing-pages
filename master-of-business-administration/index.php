@@ -5,25 +5,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ISBM University Chhattisgarh | Top University in India</title>
-    <link rel="stylesheet" href="style.css?<?php echo time() ?>" />
-    <link rel="stylesheet" href="media.css?<?php echo time() ?>" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="form-script.js?<?php echo time() ?>"></script>
-
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
 
     <link href="../assets/img/favicon.jpg" rel="icon" type="image/png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css?<?php echo time() ?>"
-        rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-        crossorigin="anonymous" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css?<?php echo time() ?>"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?<?php echo time() ?>" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css?<?php echo time() ?>" />
-    <script src="script.js?<?php echo time() ?>"></script>
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
     <style>
@@ -580,8 +573,6 @@
         </div>
     </section>
 
-
-
     <!-- Top Recruiters -->
     <section id="top-recruiters">
         <div class="row bg-yellow">
@@ -1039,8 +1030,9 @@
         <button class="btn btn-primary w-50" onclick="location.href='tel:+91-9109956459'">Call Now</button>
     </div>
 
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="form-script.js"></script>
+    <script src="script.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script>
@@ -1070,8 +1062,6 @@
                     }
                 ]
             });
-
-            // Read More Toggle
             $(document).on('click', '.read-more-btn', function () {
                 const $card = $(this).closest('.alumni-card');
                 const $testimonial = $card.find('.alumni-testimonial');
@@ -1094,7 +1084,5 @@
             });
         });
     </script>
-
 </body>
-
 </html>
