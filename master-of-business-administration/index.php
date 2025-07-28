@@ -6,17 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ISBM University Chhattisgarh | Top University in India</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="media.css?<?php echo time() ?>" />
 
     <link href="../assets/img/favicon.jpg" rel="icon" type="image/png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
     <style>
@@ -76,7 +72,7 @@
             <div class="d-flex justify-content-between flex-wrap h-100">
                 <div class="col-lg-7 col-12 banner-wrapper">
                     <h2 class="text-title text-white"> Build the Future <br> with Strategic Leadership </h2>
-                    <h6 class="text-subtitle mb-3">
+                    <h6 class="text-subtitle d-none d-lg-block mb-3">
                         Join our Master of Business Administration (MBA) program and unlock global <br> career
                         opportunities in Business Strategy, Finance, Marketing, Operations,
                         <br> ntrepreneurship, and more.
@@ -1036,7 +1032,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             $('.alumni-slider').slick({
                 dots: true,
                 arrows: false,
@@ -1045,8 +1041,7 @@
                 autoplaySpeed: 3000,
                 slidesToShow: 3,
                 slidesToScroll: 1,
-                responsive: [
-                    {
+                responsive: [{
                         breakpoint: 1024,
                         settings: {
                             slidesToShow: 2,
@@ -1062,7 +1057,7 @@
                     }
                 ]
             });
-            $(document).on('click', '.read-more-btn', function () {
+            $(document).on('click', '.read-more-btn', function() {
                 const $card = $(this).closest('.alumni-card');
                 const $testimonial = $card.find('.alumni-testimonial');
                 const $fullText = $card.find('.full-text');
@@ -1085,4 +1080,5 @@
         });
     </script>
 </body>
+
 </html>
