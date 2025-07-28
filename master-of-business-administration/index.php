@@ -53,7 +53,7 @@
                             <a class="nav-link" href="#career-opportunities">Career Opportunities</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#specialisations">Specialisations</a>
+                            <a class="nav-link" href="#specialisations">Specializations</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#eligibility-section">Eligibility</a>
@@ -646,9 +646,9 @@
         </div>
     </section>
 
-    <!-- Specialisations -->
+    <!-- Specializations -->
     <section class="bg-gray" id="specialisations">
-        <h2 class="text-title text-center mb-5">Diverse and New-age Specialisations</h2>
+        <h2 class="text-title text-center mb-5">Diverse and New-age Specializations</h2>
 
         <div class="card shadow border-0 p-4">
             <ul class="specializations_list_bullet">

@@ -388,9 +388,9 @@
         </div>
     </section>
 
-    <!-- Specialisations -->
+    <!-- Specializations -->
     <section class="bg-gray">
-        <h2 class="text-title text-center fw-bold mb-5">Diverse and New-age Specialisations</h2>
+        <h2 class="text-title text-center fw-bold mb-5">Diverse and New-age Specializations</h2>
 
         <div class="card shadow border-0 p-4">
             <ul class="specializations_list_bullet">
@@ -499,6 +499,21 @@
                                             aria-labelledby="gen-heading2" data-bs-parent="#generalAccordion">
                                             <div class="accordion-body">
                                                 Yes, ISBM University is recognized by the University Grants Commission (UGC) and other regulatory bodies.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item border-0">
+                                        <h2 class="accordion-header" id="gen-heading5">
+                                            <button class="accordion-button collapsed bg-white text-dark fw-bold"
+                                                data-bs-toggle="collapse" data-bs-target="#general5"
+                                                aria-expanded="false" aria-controls="general5">
+                                                What are the affiliations of ISBM University?
+                                            </button>
+                                        </h2>
+                                        <div id="general5" class="accordion-collapse collapse"
+                                            aria-labelledby="gen-heading5" data-bs-parent="#generalAccordion">
+                                            <div class="accordion-body">
+                                                NAAC, UGC, AACSB.
                                             </div>
                                         </div>
                                     </div>
