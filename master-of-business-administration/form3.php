@@ -25,7 +25,8 @@
         </div>
         <div class="form-group mb-2">
             <select class="form-control form-select course3" id="course3" name="course3" required>
-                <option value>Select course</option>
+                <option value="Master of Business Administration (MBA)">Master of Business Administration (MBA)</option>
+                <option value="Other Courses">Other Courses</option>
             </select>
         </div>
 
@@ -44,7 +45,9 @@
         <input type="text" name="utm_medium" value="<?php echo base64_encode($utm_medium) ?>" hidden>
         <input type="text" name="utm_campaign" value="<?php echo $utm_campaign ?>" hidden>
         <input type="hidden" name="key1" value="<?php echo base64_encode($clientIp) ?>" hidden>
-        <select class="level" id="level" name="level" required hidden> </select>
+        <select class="level" id="level" name="level" hidden style="display: none;">
+            <option value="none" selected>none</option>
+        </select>
         <input type="hidden" name="key" id="key" value="<?php echo base64_encode($key) ?>" hidden>
         <div class="form-check ms-3">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -53,7 +56,7 @@
             </label>
         </div>
         <div class="form-group d-flex justify-content-center">
-            <input type="submit" id="submitButton3" name="submit" value="Apply Now" class="btn banner-button btn-primary" />
+            <input type="submit" id="submitButton3" name="submit" value="Apply Now" class="btn banner-button btn-og" />
         </div>
     </div>
 </form>
