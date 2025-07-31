@@ -43,7 +43,7 @@
         <input type="text" name="utm_campaign" value="<?php echo $utm_campaign ?>" hidden>
         <input type="hidden" name="key1" value="<?php echo base64_encode($clientIp) ?>" hidden>
         <select class="level" id="level" name="level" style="display: none;">
-            <option value="none" selected>none</option>
+            <option value="NA" selected>NA</option>
         </select>
         <input type="hidden" name="key" id="key" value="<?php echo base64_encode($key) ?>" hidden>
         <div class="form-check ms-3">
