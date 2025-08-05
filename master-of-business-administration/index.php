@@ -21,6 +21,28 @@
             font-size: 16px;
         }
     </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11522717917"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-11522717917');
+    </script>
+
+
+
+    <!-- Event snippet for Lead Form Submit conversion page -->
+    <script>
+        gtag('event', 'conversion', {
+            'send_to': 'AW-11522717917/cVtmCJv66YwaEN3xuvYq'
+        });
+    </script>
 </head>
 
 <body>
