@@ -34,18 +34,15 @@
 
         gtag('config', 'AW-11522717917');
     </script>
+</head>
 
-
-
+<body>
     <!-- Event snippet for Lead Form Submit conversion page -->
     <script>
         gtag('event', 'conversion', {
             'send_to': 'AW-11522717917/cVtmCJv66YwaEN3xuvYq'
         });
     </script>
-</head>
-
-<body>
     <!-- header -->
     <section>
         <nav class="navbar navbar-expand-lg navbar-light bg-blue2 site-header">
